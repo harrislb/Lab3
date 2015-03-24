@@ -13,5 +13,12 @@ public class Lab3Testing {
 		
 		assertEquals(new ArrayList(), lab3.factor(1));
 	}
+	
+	@Test
+	public void test2() {
+		ArrayList t2 = new ArrayList();
+		t2.add(2);
+		assertEquals(t2, lab3.factor(2));
+	}
 
 }
