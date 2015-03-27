@@ -35,12 +35,5 @@ public class Lab3Testing {
 		t4.add(2);
 		assertEquals(t4, lab3.factor(4));
 	}
-	
-	public void test6(){
-		ArrayList t6 = new ArrayList();
-		t6.add(2);
-		t6.add(3);
-		assertEquals(t6, lab3.factor(6));
-	}
 
 }
