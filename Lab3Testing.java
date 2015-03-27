@@ -61,6 +61,16 @@ public class Lab3Testing {
 		assertEquals(t9, lab3.factor(9));
 	}
 	
+	@Test
+	public void test325115(){
+		ArrayList t325115 = new ArrayList();
+		t325115.add(5);
+		t325115.add(7);
+		t325115.add(7);
+		t325115.add(1327);
+		assertEquals(t325115, lab3.factor(325115));
+	}
+	
 	
 
 }
