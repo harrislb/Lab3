@@ -53,7 +53,13 @@ public class Lab3Testing {
 		assertEquals(t8, lab3.factor(8));
 	}
 
-
+	@Test
+	public void test9(){
+		ArrayList t9 = new ArrayList();
+		t9.add(3);
+		t9.add(3);
+		assertEquals(t9, lab3.factor(9));
+	}
 	
 	
 
