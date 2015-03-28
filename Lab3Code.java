@@ -16,7 +16,10 @@ public class Lab3Code {
 
 	public static ArrayList generatePrime(Integer inputNumber) {
 		ArrayList listOfPrimes = new ArrayList();
-		listOfPrimes.add(inputNumber);
-		return listOfPrimes;
+		
+			listOfPrimes.add(inputNumber);
+			return listOfPrimes;
+
+		
 	}
 }
