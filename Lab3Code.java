@@ -14,14 +14,15 @@ public class Lab3Code {
 		return array;
 	}
 
-	public static ArrayList generatePrime(Integer inputNumber) {
-		ArrayList listOfPrimes = new ArrayList();
-		if(inputNumber==1){
-			return listOfPrimes;
-		}
-			listOfPrimes.add(inputNumber);
-			return listOfPrimes;
-
-		
+	public static ArrayList generatePrime(int inputNumber) {
+		ArrayList<Integer> listOfPrimes = new ArrayList();
+		ArrayList<Integer> listOfSmallerPrimes = new ArrayList();
+			listOfPrimes.add(2); 
+			listOfPrimes.add(3);
+			for(int i =0; listOfPrimes.get(i)<inputNumber;i++){
+				System.out.println(listOfPrimes.get(i));
+				listOfSmallerPrimes.add(listOfPrimes.get(i));
+			}
+			return listOfSmallerPrimes;
 	}
 }
