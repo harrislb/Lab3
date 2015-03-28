@@ -51,7 +51,8 @@ public class Lab3ParametrizedTesting {
 				{3, test3},
 				{4, test4},
 				{6, test6},
-				{8, test8}
+				{8, test8},
+				{9, test8}
 				
 		
 		});

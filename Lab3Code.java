@@ -22,7 +22,6 @@ public class Lab3Code {
 			listOfPrimes.add(5);
 			listOfPrimes.add(7);
 			for(int i =0; ((i<listOfPrimes.size()) && (listOfPrimes.get(i)<inputNumber));i++){
-				System.out.println(listOfPrimes.get(i));
 				listOfSmallerPrimes.add(listOfPrimes.get(i));
 			}
 			return listOfSmallerPrimes;
