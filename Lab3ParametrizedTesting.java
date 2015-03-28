@@ -32,8 +32,7 @@ public class Lab3ParametrizedTesting {
 		ArrayList test1 = new ArrayList();
 		ArrayList test2 = new ArrayList();
 		ArrayList test3 = new ArrayList();
-		test2.add(2);
-		test3.add(3);
+		test3.add(2);
 		return Arrays.asList(new Object[][] {
 				{1, test1},
 				{2, test2},
