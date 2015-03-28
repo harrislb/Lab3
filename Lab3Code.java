@@ -16,14 +16,23 @@ public class Lab3Code {
 
 	public static ArrayList generatePrime(int inputNumber) {
 		ArrayList<Integer> listOfPrimes = new ArrayList();
-		ArrayList<Integer> listOfSmallerPrimes = new ArrayList();
-			listOfPrimes.add(2); 
-			listOfPrimes.add(3);
-			listOfPrimes.add(5);
-			listOfPrimes.add(7);
-			for(int i =0; ((i<listOfPrimes.size()) && (listOfPrimes.get(i)<inputNumber));i++){
-				listOfSmallerPrimes.add(listOfPrimes.get(i));
+		for(int i=2; i<inputNumber ;i++){
+			if(primeChecker(i)){
+				listOfPrimes.add(i);
 			}
-			return listOfSmallerPrimes;
+		}
+		return listOfPrimes;
+	}
+	
+	public static boolean primeChecker(int number){
+		 if ((number%2==0) &&number>2){
+			 return false;
+		 }
+		    for(int i=3;i*i<=number;i+=2) {
+		        if(number%i==0){
+		        	return false;
+		        }
+		    }
+		    return true;
 	}
 }
