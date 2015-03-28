@@ -20,7 +20,7 @@ public class Lab3Code {
 			listOfPrimes.add(2); 
 			listOfPrimes.add(3);
 			listOfPrimes.add(5);
-			for(int i =0; listOfPrimes.get(i)<inputNumber;i++){
+			for(int i =0; ((i<listOfPrimes.size()) && (listOfPrimes.get(i)<inputNumber));i++){
 				System.out.println(listOfPrimes.get(i));
 				listOfSmallerPrimes.add(listOfPrimes.get(i));
 			}
