@@ -1,8 +1,10 @@
 import java.util.ArrayList;
 
-
+//NOTE: The directions (at the very end of the lab) specify four classes. I combined the code portions
+//to be tested all in this class.
 public class Lab3Code {
 
+	//task 4: 
 	public ArrayList factor(int num){
 		ArrayList array = new ArrayList();
 		 for (int i = 2; i <= num; i++) {
@@ -14,6 +16,7 @@ public class Lab3Code {
 		return array;
 	}
 
+	//task 5:
 	public static ArrayList generatePrime(int inputNumber) {
 		ArrayList<Integer> listOfPrimes = new ArrayList();
 		for(int i=2; i<inputNumber ;i++){
