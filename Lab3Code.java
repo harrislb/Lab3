@@ -13,4 +13,9 @@ public class Lab3Code {
 		    }
 		return array;
 	}
+
+	public static ArrayList generatePrime(Integer inputNumber) {
+		ArrayList listOfPrimes = new ArrayList();
+		return listOfPrimes;
+	}
 }
